@@ -1,0 +1,70 @@
+.add-demande-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-demande-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .success-message {
+    color: green;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-demande-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-demande-form div {
+    margin-bottom: 15px;
+  }
+  
+  .add-demande-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .add-demande-form input,
+  .add-demande-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .add-demande-form input:focus,
+  .add-demande-form textarea:focus {
+    border-color: #007bff;
+  }
+  
+  .add-demande-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-demande-form button:hover {
+    background-color: #0056b3;
+  }
+  

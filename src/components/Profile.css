@@ -1,0 +1,65 @@
+.profile-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .profile-detail {
+    margin-bottom: 10px;
+  }
+  
+  .profile-detail label {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .profile-detail span {
+    color: #777;
+  }
+  .edit-button, .report-button , .demande-button , .view-demandes-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #19574c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .edit-button:hover, .report-button:hover  , .demande-button:hover , .view-demandes-button:hover{
+    background-color:#678c85;
+  }
+  
+  .report-button {
+    background-color: #678c85;
+  }
+  
+  .report-button:hover {
+    background-color: #08230e;
+  }
+  .demande-button {
+    background-color: #ffc107;
+  }
+  
+  .demande-button:hover {
+    background-color: #e0a800;
+  }
+  .view-demandes-button {
+    background-color: #17a2b8;
+  }
+  
+  .view-demandes-button:hover {
+    background-color: #138496;
+  }
